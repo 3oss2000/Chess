@@ -39,5 +39,7 @@ public class Tile {
     public boolean isOccupied(){
         return this.piece == null ? false : true;
     }
+
+    // probably has no use
     public Piece getCurrentPiece(){return piece;}
 }
