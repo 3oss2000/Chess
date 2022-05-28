@@ -3,8 +3,12 @@ package Pieces;
 public abstract class Piece{
     
     private boolean white;
-    private boolean killed = false;
+    private boolean killed;
 
+    Piece()
+    {
+        killed = false;
+    }
     
 
 }
