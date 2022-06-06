@@ -1,4 +1,4 @@
-public class Square {
+public final class Square {
    
     private Piece piece;
 
